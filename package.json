@@ -31,7 +31,9 @@
   },
   "files": [
     "dist/index.js",
-    "dist/index.d.ts"
+    "dist/index.d.ts",
+    "README.md",
+    "LICENSE"
   ],
   "keywords": [
     "logger",
