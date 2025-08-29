@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@jasonliggi/logger": ["./src/index.ts"]
+    }
+  },
+  "include": ["src/**/*", "examples/**/*"]
+}

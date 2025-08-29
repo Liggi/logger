@@ -1,0 +1,52 @@
+{
+  "name": "@jasonliggi/logger",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Minimal instance-based logger with context filters and dynamic flags.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:examples": "tsc -p tsconfig.examples.json",
+    "clean": "rm -rf dist",
+    "example:all": "tsc -p tsconfig.examples.json && node dist/examples/all-features.js",
+    "prepublishOnly": "tsc -p tsconfig.json",
+    "prepare": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liggi/logger.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "keywords": [
+    "logger",
+    "debug",
+    "localStorage",
+    "browser",
+    "node",
+    "typescript"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
