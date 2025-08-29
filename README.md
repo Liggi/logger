@@ -73,6 +73,9 @@ log.group("Compute things", () => {
 ## Notes
 - No PII redaction is performed; avoid logging secrets.
 
+## License
+MIT © Jason Liggi
+
 ## Scripts
 - Build library: `pnpm build` (or `yarn build` / `npm run build`)
 - Run example: `pnpm run example:all`
