@@ -4,7 +4,7 @@
     "rootDir": ".",
     "baseUrl": ".",
     "paths": {
-      "@jasonliggi/logger": ["./src/index.ts"]
+      "@liggi/logger": ["./src/index.ts"]
     }
   },
   "include": ["src/**/*", "examples/**/*"]

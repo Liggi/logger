@@ -1,5 +1,5 @@
 {
-  "name": "@jasonliggi/logger",
+  "name": "@liggi/logger",
   "version": "0.1.0",
   "private": false,
   "description": "Minimal instance-based logger with context filters and dynamic flags.",

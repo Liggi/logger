@@ -5,7 +5,7 @@
 //
 // This imports the package name via a path alias (tsconfig.examples.json)
 
-import Logger from "@jasonliggi/logger";
+import Logger from "@liggi/logger";
 
 // Create instances and start logging immediately (default: on in dev, off in prod unless enabled via flags)
 const app = new Logger({ context: "app:core" });

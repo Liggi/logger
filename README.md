@@ -1,4 +1,4 @@
-# @jasonliggi/logger
+# @liggi/logger
 
 Minimal, zero-dep TypeScript logger with:
 - Simple instance API (`new Logger({ context?, enabled? })`)
@@ -13,7 +13,7 @@ Add to your workspace (publish or use via local path). Build with `tsc`.
 ## Quick Start
 
 ```ts
-import Logger from "@jasonliggi/logger";
+import Logger from "@liggi/logger";
 
 // In dev: logs are on by default.
 // In prod: enable dynamically via flags.
@@ -36,7 +36,7 @@ This package is ESM-only. In CommonJS, use dynamic import:
 ```js
 // CommonJS example
 (async () => {
-  const { default: Logger } = await import('@jasonliggi/logger');
+  const { default: Logger } = await import('@liggi/logger');
   const log = new Logger({ context: 'web:testing' });
   log.info('hello from CJS');
 })();
